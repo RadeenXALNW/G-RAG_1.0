@@ -4,11 +4,9 @@ $${\color{red}Updating......}$$
 ### Overview
 G-RAG is an improvement over recently published [Graph RAG by Microsoft](https://github.com/microsoft/graphrag). G-RAG leverages a graph database to capture relationships between entities, enhancing the retrieval and contextual representation with feeding an additional knowledge base with the given knowledge base. 
 
-At first clone these repository
+At first install the repo.
 ```
-https://github.com/llmware-ai/llmware.git
-https://github.com/RadeenXALNW/relik-Materials.git
-
+pip install git+https://github.com/RadeenXALNW/relik-Materials.git
 ```
 
 Shoutout to the authors of :star2: :clap:
