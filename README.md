@@ -1,1 +1,1 @@
-# G-RAG: Graph Expansion in Material Science
+# G-RAG: Knowledge Graph Expansion in Material Science
