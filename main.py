@@ -11,25 +11,25 @@ from llama_index.extractors.relik.base import RelikPathExtractor
 from llama_index.llms.groq import Groq
 from llama_index.embeddings.jinaai import JinaEmbedding
 from transformers import AutoModelForCausalLM, AutoProcessor
-from directory import setup_directories,get_pdf_files
+from utils.directory import setup_directories,get_pdf_files
 # Import functions from other modules
 from document_parse import document2text_extraction
-from microsoft_table_transformer import extract_images_from_pdfs, process_images_and_cleanup
+from table_agent.microsoft_table_transformer import extract_images_from_pdfs, process_images_and_cleanup
 from image_extract_from_pdf import extract_images
 from library_init import get_library_name
 import time
 from llmware.configs import LLMWareConfig, MilvusConfig
-from image_summarization import setup_image_summarizer,summarize_image
+from vision_agent.image_summarization import setup_image_summarizer,summarize_image
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 import numpy as np
-from txt_reader import read_text_file
-from groq_assistant1 import process_chunk
+from utils.txt_reader import read_text_file
+from llm_assistant.groq_assistant import process_chunk
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 import fitz
-from relik_rag import split_text,create_documents,chunk_text
+from entity_link.relik_rag import split_text,create_documents,chunk_text
 
 
 # API keys and credentials (replace with your actual keys)
