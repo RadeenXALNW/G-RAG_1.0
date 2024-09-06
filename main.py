@@ -13,10 +13,10 @@ from llama_index.embeddings.jinaai import JinaEmbedding
 from transformers import AutoModelForCausalLM, AutoProcessor
 from utils.directory import setup_directories,get_pdf_files
 # Import functions from other modules
-from document_parse import document2text_extraction
+from utils.document_parse import document2text_extraction
 from table_agent.microsoft_table_transformer import extract_images_from_pdfs, process_images_and_cleanup
-from image_extract_from_pdf import extract_images
-from library_init import get_library_name
+from vision_agent.image_extract_from_pdf import extract_images
+from utils.library_init import get_library_name
 import time
 from llmware.configs import LLMWareConfig, MilvusConfig
 from vision_agent.image_summarization import setup_image_summarizer,summarize_image
