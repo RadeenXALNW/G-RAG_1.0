@@ -1,0 +1,8 @@
+polars[pandas]>=0.20.5
+pyarrow>=7
+numpy
+pymupdf>=1.19.1
+opencv-contrib-python
+numba
+beautifulsoup4
+xlsxwriter>=3.0.6

@@ -1,0 +1,13 @@
+
+llama-index-extractors-relik
+llama-index-graph-stores-neo4j
+llama-index-llms-openai
+llama-index
+llama-index-embeddings-jinaai
+llama-index-llms-groq
+langchain
+openai
+neo4j
+spacy 
+# !python -m spacy download en_core_web_sm
+# https://spacy.io/models/en#en_core_web_sm =<> donwload the models
