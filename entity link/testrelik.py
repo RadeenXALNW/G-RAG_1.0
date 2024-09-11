@@ -11,28 +11,7 @@ from tqdm import tqdm
 import aiohttp
 
 
-# API keys and credentials (replace with your actual keys)
-# NEO4J_USERNAME = "neo4j"
-# NEO4J_PASSWORD = "n8Sv_v0pcGHwDUsQkFfBwrlyd9lbja-rBQedvBP3pH0"
-# NEO4J_URL = "neo4j+s://50e452b7.databases.neo4j.io:7687"
 
-#radeen09
-NEO4J_USERNAME="neo4j"
-# NEO4J_PASSWORD="gncxZ5wgVeVrnrSPt1SubcTGE2Et5x2yrXlTS-qbMTQ"
-# NEO4J_URL="neo4j+s://f1a1fa71.databases.neo4j.io"
-GROQ_API_KEY = "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"
-JINA_API_KEY = "jina_3159c8dcf8924d9f8e210ec9dfce6b15stUh9a17aSiCA5FZhJpjQitYwwuq"
-
-
-# #raeesim account
-# NEO4J_PASSWORD="vKKfwPIjluAazthXKQ7ZXCeTPcwcPl2n8wbyLOb-Xrw"
-# NEO4J_URL="neo4j+s://7382d90d.databases.neo4j.io"
-
-
-#fahmida account
-
-NEO4J_PASSWORD="BhRm_Xfj3CfIoBRe7A5INWNUQQ1m6NtQ9F0Yj3dhXyg"
-NEO4J_URL="neo4j+s://412e124f.databases.neo4j.io"
 
 
 
