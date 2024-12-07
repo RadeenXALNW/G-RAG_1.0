@@ -6,7 +6,7 @@ G-RAG is an improvement over recently published [Graph RAG by Microsoft](https:/
 
 At first install the repo.
 ```
-pip install git+https://github.com/RadeenXALNW/relik-Materials.git
+pip install git+https://github.com/RadeenXALNW/G-RAG_1.0.git
 ```
 
 Shoutout to the authors of :star2: :clap:
