@@ -1,6 +1,11 @@
 # G-RAG: Knowledge Graph Expansion in Material Science
 $${\color{red}Updating......}$$
 
+
+📑 Read our paper: [G-RAG: Knowledge Graph Expansion in Material Science](https://arxiv.org/pdf/2411.14592)
+🎯 Accepted at MusiML Workshop, NeurIPS 2024 🎉
+
+
 ### Overview
 G-RAG is an improvement over recently published [Graph RAG by Microsoft](https://github.com/microsoft/graphrag). G-RAG leverages a graph database to capture relationships between entities, enhancing the retrieval and contextual representation with feeding an additional knowledge base with the given knowledge base. 
 
