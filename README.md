@@ -2,9 +2,9 @@
 $${\color{red}Updating......}$$
 
 
-📑 Read our paper: [G-RAG: Knowledge Graph Expansion in Material Science](https://arxiv.org/pdf/2411.14592)
+## 📑 Read our paper: [G-RAG: Knowledge Graph Expansion in Material Science](https://arxiv.org/pdf/2411.14592)
 
-🎯 Accepted at MusiML Workshop, NeurIPS 2024 🎉
+### 🎯 Accepted at MusiML Workshop, NeurIPS 2024 🎉
 
 
 ### Overview
